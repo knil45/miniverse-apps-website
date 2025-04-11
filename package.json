@@ -1,0 +1,11 @@
+{
+  "name": "miniverseapps-website",
+  "version": "1.0.0",
+  "author": "Miniverse Apps",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start-php": "php -S localhost:8001"
+  },
+  "type": "module"
+}

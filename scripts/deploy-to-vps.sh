@@ -1,7 +1,7 @@
 #!/bin/bash
 
 APP_DIR=~/apps/miniverse-website
-REPO_URL=git@github.com:knil45/miniverse-apps-website.git
+REPO_URL=git@github.com-miniverse-apps-website:knil45/miniverse-apps-website.git
 BRANCH=master
 
 if [ ! -d "$APP_DIR" ]; then

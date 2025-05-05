@@ -3,7 +3,7 @@
 
 APP_DIR=~/apps/miniverse-apps-website
 REPO_URL=git@github.com-miniverse-apps-website:knil45/miniverse-apps-website.git
-BRANCH=master
+BRANCH=main
 
 if [ ! -d "$APP_DIR" ]; then
   git clone -b $BRANCH $REPO_URL $APP_DIR

@@ -14,4 +14,4 @@ git pull origin $BRANCH
 npm install
 
 # Restart server
-pm2 restart miniverse-apps-website
+sudo systemctl restart php8.3-fpm

@@ -13,8 +13,5 @@ git clone -b $BRANCH $REPO_URL $APP_DIR
 cd $APP_DIR
 npm install
 
-# Start server
-pm2 start index.js --name miniverse-apps-website
-
-# Save config
-pm2 save
+# Restart server
+sudo systemctl restart php8.3-fpm

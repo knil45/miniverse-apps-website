@@ -14,4 +14,4 @@ git pull origin $BRANCH
 npm install
 
 # Restart server
-pm2 miniverse-apps-website
+pm2 restart miniverse-apps-website

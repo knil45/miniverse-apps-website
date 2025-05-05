@@ -16,4 +16,4 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_KEY }}
           script: |
-            ~/apps/scripts/deploy-to-vps.sh
+            ~/apps/scripts/deploy-miniverse-apps-website.sh

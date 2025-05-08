@@ -2492,6 +2492,10 @@ input[type="radio"] + label:before {
   align-items: center;
 }
 
+.image.fit#banner {
+  height: 100%;
+}
+
 .image.fit img {
   max-width: 100%;
   max-height: 100%;

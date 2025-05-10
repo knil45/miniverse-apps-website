@@ -28,11 +28,10 @@ include 'php/set_language.php';
       <span class="icon solid major"></span>
       <h1>Miniverse Apps</h1>
       <p>
-        <?php echo $translations['index']['header']['description']['0']; ?><br />
-        dedicación y creatividad por un desarrollador indie.
+        <?php echo $translations['index']['header']['description']; ?>
       </p>
       <ul class="actions special">
-        <li><a href="#one" class="button scrolly">Saber más</a></li>
+        <li><a href="#one" class="button scrolly"><?php echo $translations['index']['about-me']['title']; ?></a></li>
       </ul>
     </div>
   </section>
@@ -43,25 +42,18 @@ include 'php/set_language.php';
       <div class="row gtr-150">
         <div class="col-6 col-12-medium">
           <header class="major">
-            <h2>Acerca de mi</h2>
+            <h2><?php echo $translations['index']['about-me']['title']; ?></h2>
           </header>
           <p>
-            Soy Jordi, profesional del Quality Assurance (QA) en el mundo del
-            software, pero también un apasionado del desarrollo de
-            aplicaciones y videojuegos.
+            <?php echo $translations['index']['about-me']['description'][0]; ?>
           </p>
           <p>
-            En Miniverse Apps combino lo mejor de ambos mundos —la rigurosidad
-            del control de calidad y la creatividad del desarrollo— para dar
-            forma a mis ideas y cuidar cada detalle, desde la lógica interna
-            hasta la experiencia de usuario.
+            <?php echo $translations['index']['about-me']['description'][1]; ?>
           </p>
           <p>
-            Mis creaciones buscan siempre ofrecer una mezcla equilibrada de
-            diversión, desafío y utilidad.
+            <?php echo $translations['index']['about-me']['description'][2]; ?>
           </p>
         </div>
-
         <div class="col-6 col-12-medium imp-medium">
           <span id="banner" class="image fit"><img src="images/me.jpg" alt="" /></span>
         </div>
@@ -73,7 +65,9 @@ include 'php/set_language.php';
   <section id="four" class="main style2 special">
     <div class="container">
       <ul class="actions special">
-        <li><a href="#contact" class="button wide">Contacto</a></li>
+        <li><a href="#contact" class="button wide scrolly">
+            <?php echo $translations['generic']['contact']; ?>
+          </a></li>
       </ul>
     </div>
   </section>
@@ -81,28 +75,35 @@ include 'php/set_language.php';
   <!-- Three -->
   <section id="three" class="main style1 special">
     <div class="container">
-      <h2>Mis proyectos</h2>
+      <h2>
+        <?php echo $translations['index']['my-projects']['title']; ?>
+      </h2>
       <br /><br />
       <div class="row gtr-150">
         <div class="col-4 col-12-medium">
           <span id="apps" class="image fit"><img src="/images/nova-ai-icon-512x512.png" alt="" /></span>
           <h3>Nova AI</h3>
           <p>
-            El mejor asistente de IA para tu ordenador<br />
-            compatible con Windows, MacOS y Linux
+            <?php echo $translations['index']['my-projects']['nova-ai']['description']; ?>
           </p>
           <ul class="actions special">
             <li>
-              <a href="https://novaai.es" class="button">Descubrir más</a>
+              <a href="https://novaai.es" class="button">
+                <?php echo $translations['generic']['discover-more']; ?>
+              </a>
             </li>
           </ul>
         </div>
         <div class="col-4 col-12-medium">
           <span id="apps" class="image fit"><img src="/images/sudoku-image.png" alt="" /></span>
           <h3>Sudoku Classic</h3>
-          <p>Un clásico de lógica reinventado por Miniverse Apps</p>
+          <p>
+            <?php echo $translations['index']['my-projects']['sudoku-classic']['description']; ?>
+          </p>
           <ul class="actions special">
-            <a href="/sudoku-classic" class="button">Descubrir más</a>
+            <a href="/sudoku-classic" class="button">
+              <?php echo $translations['generic']['discover-more']; ?>
+            </a>
           </ul>
         </div>
       </div>
@@ -117,38 +118,24 @@ include 'php/set_language.php';
           <ul class="major-icons">
             <li><span class="icon solid style1 major fa-code"></span></li>
             <li><span class="icon solid style2 major fa-bolt"></span></li>
-            <li>
-              <span class="icon solid style3 major fa-camera-retro"></span>
-            </li>
             <li><span class="icon solid style4 major fa-cog"></span></li>
             <li><span class="icon solid style5 major fa-desktop"></span></li>
-            <li><span class="icon solid style6 major fa-calendar"></span></li>
           </ul>
         </div>
         <div class="col-6 col-12-medium">
           <header class="major">
-            <h2>Mis valores</h2>
+            <h2>
+              <?php echo $translations['index']['my-values']['title']; ?>
+            </h2>
           </header>
           <p>
-            Adipiscing a commodo ante nunc accumsan interdum mi ante
-            adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-            nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-            Adipiscing id accumsan adipiscing ipsum.
+            <?php echo $translations['index']['my-values']['description'][0]; ?>
           </p>
           <p>
-            Blandit faucibus proin. Ac aliquam integer adipiscing enim non
-            praesent vis commodo nunc phasellus cubilia ac risus accumsan.
-            Accumsan blandit. Lobortis phasellus non lobortis dit varius mi
-            varius accumsan lobortis. Blandit ante aliquam lacinia lorem
-            lobortis semper morbi col faucibus vitae integer placerat accumsan
-            orci eu mi odio tempus adipiscing adipiscing adipiscing curae
-            consequat feugiat etiam dolore.
+            <?php echo $translations['index']['my-values']['description'][1]; ?>
           </p>
           <p>
-            Adipiscing a commodo ante nunc accumsan interdum mi ante
-            adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-            nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
-            Adipiscing id accumsan adipiscing ipsum.
+            <?php echo $translations['index']['my-values']['description'][2]; ?>
           </p>
         </div>
       </div>

@@ -8,6 +8,9 @@ return [
         'download-google-play' => 'Descargar en Google Play',
         'privacy-policy' => 'Política de privacidad',
     ],
+    'menu' => [
+        'home' => 'Inicio',
+    ],
     'index' => [
         'header' => [
             'title' => 'Miniverse Apps',

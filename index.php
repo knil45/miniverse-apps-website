@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Miniverse Apps</title>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+</head>
+
+<body class="is-preload">
+  <!-- Header -->
+  <section id="header">
+    <div class="inner">
+      <span class="icon solid major"></span>
+      <h1>Miniverse Apps</h1>
+      <p>
+        Videojuegos y aplicaciones desarrollados con<br />
+        dedicación y creatividad por un desarrollador indie.
+      </p>
+      <ul class="actions special">
+        <li><a href="#one" class="button scrolly">Saber más</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- One -->
+  <section id="one" class="main style1">
+    <div class="container">
+      <div class="row gtr-150">
+        <div class="col-6 col-12-medium">
+          <header class="major">
+            <h2>Acerca de mi</h2>
+          </header>
+          <p>
+            Soy Jordi, profesional del Quality Assurance (QA) en el mundo del
+            software, pero también un apasionado del desarrollo de
+            aplicaciones y videojuegos.
+          </p>
+          <p>
+            En Miniverse Apps combino lo mejor de ambos mundos —la rigurosidad
+            del control de calidad y la creatividad del desarrollo— para dar
+            forma a mis ideas y cuidar cada detalle, desde la lógica interna
+            hasta la experiencia de usuario.
+          </p>
+          <p>
+            Mis creaciones buscan siempre ofrecer una mezcla equilibrada de
+            diversión, desafío y utilidad.
+          </p>
+        </div>
+
+        <div class="col-6 col-12-medium imp-medium">
+          <span id="banner" class="image fit"><img src="images/me.jpg" alt="" /></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Four -->
+  <section id="four" class="main style2 special">
+    <div class="container">
+      <ul class="actions special">
+        <li><a href="#contact" class="button wide">Contacto</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Three -->
+  <section id="three" class="main style1 special">
+    <div class="container">
+      <h2>Mis proyectos</h2>
+      <br /><br />
+      <div class="row gtr-150">
+        <div class="col-4 col-12-medium">
+          <span id="apps" class="image fit"><img src="/images/nova-ai-icon-512x512.png" alt="" /></span>
+          <h3>Nova AI</h3>
+          <p>
+            El mejor asistente de IA para tu ordenador<br />
+            compatible con Windows, MacOS y Linux
+          </p>
+          <ul class="actions special">
+            <li>
+              <a href="https://novaai.es" class="button">Descubrir más</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 col-12-medium">
+          <span id="apps" class="image fit"><img src="/images/sudoku-image.png" alt="" /></span>
+          <h3>Sudoku Classic</h3>
+          <p>Un clásico de lógica reinventado por Miniverse Apps</p>
+          <ul class="actions special">
+            <a href="/sudoku-classic" class="button">Descubrir más</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Two -->
+  <section id="two" class="main style2">
+    <div class="container">
+      <div class="row gtr-150">
+        <div class="col-6 col-12-medium">
+          <ul class="major-icons">
+            <li><span class="icon solid style1 major fa-code"></span></li>
+            <li><span class="icon solid style2 major fa-bolt"></span></li>
+            <li>
+              <span class="icon solid style3 major fa-camera-retro"></span>
+            </li>
+            <li><span class="icon solid style4 major fa-cog"></span></li>
+            <li><span class="icon solid style5 major fa-desktop"></span></li>
+            <li><span class="icon solid style6 major fa-calendar"></span></li>
+          </ul>
+        </div>
+        <div class="col-6 col-12-medium">
+          <header class="major">
+            <h2>Mis valores</h2>
+          </header>
+          <p>
+            Adipiscing a commodo ante nunc accumsan interdum mi ante
+            adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
+            nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
+            Adipiscing id accumsan adipiscing ipsum.
+          </p>
+          <p>
+            Blandit faucibus proin. Ac aliquam integer adipiscing enim non
+            praesent vis commodo nunc phasellus cubilia ac risus accumsan.
+            Accumsan blandit. Lobortis phasellus non lobortis dit varius mi
+            varius accumsan lobortis. Blandit ante aliquam lacinia lorem
+            lobortis semper morbi col faucibus vitae integer placerat accumsan
+            orci eu mi odio tempus adipiscing adipiscing adipiscing curae
+            consequat feugiat etiam dolore.
+          </p>
+          <p>
+            Adipiscing a commodo ante nunc accumsan interdum mi ante
+            adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
+            nascetur ac non. Lorem curae eu ante amet sapien in tempus ac.
+            Adipiscing id accumsan adipiscing ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <ul id="contact" class="icons">
+      <li>contact@miniverseapps.com</li>
+    </ul>
+    <ul class="copyright">
+      <li>&copy; Miniverse Apps</li>
+      <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </section>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

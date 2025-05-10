@@ -5,6 +5,8 @@ return [
         'know-more' => 'Saber más',
         'contact' => 'Contacto',
         'discover-more' => 'Descubrir más',
+        'download-google-play' => 'Descargar en Google Play',
+        'privacy-policy' => 'Política de privacidad',
     ],
     'index' => [
         'header' => [
@@ -42,11 +44,9 @@ return [
         ],
     ],
     'sudoku-classic' => [
-        'title' => 'Sudoku Classic',
-        'description' => [
-            0 => 'Un clásico de lógica reinventado por Miniverse Apps',
-            1 => 'Disfruta de una experiencia de juego fluida y atractiva.',
-            2 => 'Con múltiples niveles de dificultad y un diseño intuitivo, es perfecto tanto para principiantes como para expertos.',
+        'header' => [
+            'description' => 'Un clásico de lógica reinventado por Miniverse Apps',
         ],
+        'description' => 'Sudoku Classic es una experiencia pulida del juego que conoces y amas. Con interfaz limpia, niveles variados, modos de dificultad y sin complicaciones, es perfecto tanto para principiantes como expertos.',
     ],
 ];

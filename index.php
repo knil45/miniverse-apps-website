@@ -1,3 +1,6 @@
+<?php
+include 'php/set_language.php';
+?>
 <!DOCTYPE html>
 <!--
 	Photon by HTML5 UP
@@ -25,7 +28,7 @@
       <span class="icon solid major"></span>
       <h1>Miniverse Apps</h1>
       <p>
-        Videojuegos y aplicaciones desarrollados con<br />
+        <?php echo $translations['index']['header']['description']['0']; ?><br />
         dedicación y creatividad por un desarrollador indie.
       </p>
       <ul class="actions special">

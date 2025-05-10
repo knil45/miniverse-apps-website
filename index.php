@@ -23,6 +23,9 @@ include 'php/set_language.php';
 </head>
 
 <body class="is-preload">
+  <!-- Navbar -->
+  <?php include 'php/navbar.php'; ?>
+
   <!-- Header -->
   <section id="header">
     <div class="inner">

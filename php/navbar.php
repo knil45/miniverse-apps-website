@@ -2,10 +2,15 @@
     <a href="/">Miniverse Apps</a>
 
     <div class="dropdown">
-        <select onchange="cambiarIdioma(this.value)">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-            <option value="fr">Français</option>
+        <select id="language_selector" onchange="changeLang(this.value)">
+            <option value="es" <?php echo ($_SESSION['lang'] == "es") ? "selected" : ""; ?>>Español</option>
+            <option value="en" <?php echo ($_SESSION['lang'] == "en") ? "selected" : ""; ?>>English</option>
         </select>
     </div>
 </div>
+
+<script>
+    function changeLang(lang) {
+        window.location.href = `${window.location.href}?lang=${lang}`;
+    }
+</script>

@@ -1,3 +1,6 @@
+<?php
+$_SESSION['lang'] = $_SESSION['lang'] ?? 'es'; // Default language
+?>
 <div class="navbar">
     <a href="/">Miniverse Apps</a>
 

@@ -16,4 +16,4 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_KEY }}
           script: |
-            /var/www/vps-pull-miniverse-apps-website.sh
+            /root/vps-pull-miniverse-apps-website.sh

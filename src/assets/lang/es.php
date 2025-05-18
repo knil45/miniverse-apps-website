@@ -14,7 +14,7 @@ return [
     'index' => [
         'header' => [
             'title' => 'Miniverse Apps',
-            'description' => 'Videojuegos y aplicaciones desarrollados con<br>dedicación y creatividad por un desarrollador indie.'
+            'description' => 'Videojuegos y aplicaciones desarrollados con<br> dedicación y creatividad por un desarrollador indie.'
         ],
         'about-me' => [
             'title' => 'Sobre mí',

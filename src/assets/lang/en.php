@@ -14,7 +14,7 @@ return [
     'index' => [
         'header' => [
             'title' => 'Miniverse Apps',
-            'description' => 'Video games and apps developed with<br>dedication and creativity by an indie developer.'
+            'description' => 'Video games and apps developed with<br> dedication and creativity by an indie developer.'
         ],
         'about-me' => [
             'title' => 'About Me',

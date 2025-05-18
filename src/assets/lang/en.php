@@ -31,7 +31,7 @@ return [
                 1 => 'From mind-challenging games to tools that make your everyday life easier.',
             ],
             'nova-ai' => [
-                'description' => 'The best AI assistant for your computer<br />compatible with Windows, MacOS and Linux',
+                'description' => 'The best AI assistant for your computer compatible with Windows, MacOS and Linux',
             ],
             'sudoku-classic' => [
                 'description' => 'A logic classic reinvented by Miniverse Apps',

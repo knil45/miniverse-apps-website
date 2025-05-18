@@ -31,7 +31,7 @@ return [
                 1 => 'Desde juegos que desafían tu mente hasta herramientas que facilitan tu día a día.',
             ],
             'nova-ai' => [
-                'description' => 'El mejor asistente de IA para tu ordenador<br />compatible con Windows, MacOS y Linux',
+                'description' => 'El mejor asistente de IA para tu ordenador compatible con Windows, MacOS y Linux',
             ],
             'sudoku-classic' => [
                 'description' => 'Un clásico de lógica reinventado por Miniverse Apps',

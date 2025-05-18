@@ -14,6 +14,7 @@ $_SESSION['lang'] = $_SESSION['lang'] ?? 'es'; // Default language
 
 <script>
     function changeLang(lang) {
-        window.location.href = `${window.location.href}?lang=${lang}`;
+        var location = window.location.origin + window.location.pathname;
+        window.location.href = `${location}?lang=${lang}`;
     }
 </script>

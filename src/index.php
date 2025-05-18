@@ -17,6 +17,7 @@ include 'php/set_language.php';
     content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
@@ -30,7 +31,9 @@ include 'php/set_language.php';
   <section id="header">
     <div class="inner">
       <span class="icon solid major"></span>
-      <h1>Miniverse Apps</h1>
+      <p>
+        <img id="header-icon" src="/images/miniverse-apps-icon-transparent-512x192.png" alt="">
+      </p>
       <p>
         <?php echo $translations['index']['header']['description']; ?>
       </p>

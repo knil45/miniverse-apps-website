@@ -2,7 +2,7 @@
 $_SESSION['lang'] = $_SESSION['lang'] ?? 'es'; // Default language
 ?>
 <div class="navbar">
-    <a href="/">Miniverse Apps</a>
+    <a href="/"><img class="icon" src="/images/miniverse-apps-icon-transparent-512x192.png" alt=""></a>
 
     <div class="dropdown">
         <select id="language_selector" onchange="changeLang(this.value)">

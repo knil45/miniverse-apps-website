@@ -1,6 +1,9 @@
 <section id="footer">
     <ul id="contact" class="icons">
-        <li>contact@miniverseapps.com</li>
+        <li>
+            <a href="https://x.com/MiniverseApps" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+        </li>
+        <li class="mail">contact@miniverseapps.com</li>
     </ul>
     <ul class="copyright">
         <li>&copy; Miniverse Apps</li>

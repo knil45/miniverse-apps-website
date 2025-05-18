@@ -2668,6 +2668,8 @@ ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
+  display: flex;
+  justify-content: center;
 }
 
 ul.icons li {
@@ -3239,6 +3241,10 @@ body.is-preload #header:after {
   background-position: top left, center center, center center;
   background-size: auto, cover, cover;
   text-align: center;
+}
+
+#footer .mail {
+  font-size: 1em;
 }
 
 #footer a {

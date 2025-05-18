@@ -462,6 +462,12 @@ pre code {
 
 .row > .col-4 {
   width: 33.33333%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row .col-12-medium .spacer {
+  flex: 1;
 }
 
 .row > .off-4 {

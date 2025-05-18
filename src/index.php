@@ -93,6 +93,7 @@ include 'php/set_language.php';
           <p>
             <?php echo $translations['index']['my-projects']['nova-ai']['description']; ?>
           </p>
+          <div class="spacer"></div>
           <ul class="actions special">
             <li>
               <a href="https://novaai.es" class="button">
@@ -107,6 +108,7 @@ include 'php/set_language.php';
           <p>
             <?php echo $translations['index']['my-projects']['sudoku-classic']['description']; ?>
           </p>
+          <div class="spacer"></div>
           <ul class="actions special">
             <a href="/sudoku-classic" class="button">
               <?php echo $translations['generic']['discover-more']; ?>

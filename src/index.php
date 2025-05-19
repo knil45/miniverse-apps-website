@@ -106,6 +106,19 @@ include 'php/set_language.php';
             </a>
           </ul>
         </div>
+        <div class="col-4 col-12-medium">
+          <span id="apps" class="image fit"><img src="/images/alabanza-facil.png" alt="" /></span>
+          <h3>Alabanza Fácil</h3>
+          <p>
+            <?php echo $translations['index']['my-projects']['alabanza-facil']['description']; ?>
+          </p>
+          <div class="spacer"></div>
+          <ul class="actions special">
+            <a href="/alabanza-facil" class="button">
+              <?php echo $translations['generic']['discover-more']; ?>
+            </a>
+          </ul>
+        </div>
       </div>
     </div>
   </section>

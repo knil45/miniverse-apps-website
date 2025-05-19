@@ -36,6 +36,9 @@ return [
             'sudoku-classic' => [
                 'description' => 'Un clásico de lógica reinventado por Miniverse Apps',
             ],
+            'alabanza-facil' => [
+                'description' => 'TODO',
+            ]
         ],
         'my-values' => [
             'title' => 'Mis valores',
@@ -51,5 +54,11 @@ return [
             'description' => 'Un clásico de lógica reinventado por Miniverse Apps',
         ],
         'description' => 'Sudoku Classic es una experiencia pulida del juego que conoces y amas. Con interfaz limpia, niveles variados, modos de dificultad y sin complicaciones, es perfecto tanto para principiantes como expertos.',
+    ],
+    'alabanza-facil' => [
+        'header' => [
+            'description' => 'TODO',
+        ],
+        'description' => 'TODO',
     ],
 ];

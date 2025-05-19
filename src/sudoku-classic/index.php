@@ -23,6 +23,9 @@ $page = "sudoku-classic";
   <section id="header">
     <div class="inner">
       <span class="icon solid major"></span>
+      <p>
+        <img id="header-icon" src="/images/sudoku-image.png" alt="">
+      </p>
       <h1>Sudoku Classic</h1>
       <p>
         <?php echo $translations[$page]['header']['description']; ?>
@@ -30,13 +33,23 @@ $page = "sudoku-classic";
     </div>
   </section>
 
-  <!-- Five -->
+  <!-- Description -->
   <section id="five" class="main style1">
     <div class="container">
       <section>
         <p>
           <?php echo $translations[$page]['description']; ?>
         </p>
+        <br>
+        <ul class="icons">
+          <li>
+            <span>Unity</span>
+          </li>
+          <li>
+            <span>C#</span>
+          </li>
+        </ul>
+        <br>
         <ul class="actions">
           <li>
             <a

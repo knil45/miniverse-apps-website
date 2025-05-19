@@ -23,6 +23,9 @@ $page = "alabanza-facil";
   <section id="header">
     <div class="inner">
       <span class="icon solid major"></span>
+      <p>
+        <img id="header-icon" src="/images/alabanza-facil.png" alt="">
+      </p>
       <h1>Alabanza Fácil</h1>
       <p>
         <?php echo $translations[$page]['header']['description']; ?>
@@ -30,19 +33,18 @@ $page = "alabanza-facil";
     </div>
   </section>
 
-  <!-- Five -->
+  <!-- Description -->
   <section id="five" class="main style1">
     <div class="container">
       <section>
         <p>
           <?php echo $translations[$page]['description']; ?>
         </p>
-        <p>
-        <h5>Languages</h5>
-        <blockquote>
-          C#
-        </blockquote>
-        </p>
+        <ul class="icons">
+          <li>
+            <span>C#</span>
+          </li>
+        </ul>
       </section>
     </div>
   </section>

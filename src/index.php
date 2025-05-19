@@ -11,16 +11,7 @@ include 'php/set_language.php';
 
 <head>
   <title>Miniverse Apps</title>
-  <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/navbar.css" />
-  <link rel="stylesheet" href="assets/css/custom.css" />
-  <noscript>
-    <link rel="stylesheet" href="assets/css/noscript.css" />
-  </noscript>
+  <?php include './php/head.meta.php'; ?>
 </head>
 
 <body class="is-preload">
@@ -43,7 +34,7 @@ include 'php/set_language.php';
     </div>
   </section>
 
-  <!-- One -->
+  <!-- About me -->
   <section id="one" class="main style1">
     <div class="container">
       <div class="row gtr-150">
@@ -68,7 +59,7 @@ include 'php/set_language.php';
     </div>
   </section>
 
-  <!-- Four -->
+  <!-- Contact -->
   <section id="four" class="main style2 special">
     <div class="container">
       <ul class="actions special">
@@ -79,7 +70,7 @@ include 'php/set_language.php';
     </div>
   </section>
 
-  <!-- Three -->
+  <!-- My projects -->
   <section id="three" class="main style1 special">
     <div class="container">
       <h2>

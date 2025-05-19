@@ -11,15 +11,7 @@ include '../php/set_language.php';
 
 <head>
   <title>Miniverse Apps</title>
-  <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
-  <link rel="stylesheet" href="/assets/css/navbar.css" />
-  <noscript>
-    <link rel="stylesheet" href="/assets/css/noscript.css" />
-  </noscript>
+  <?php include '../php/head.meta.php'; ?>
 </head>
 
 <body class="is-preload">

@@ -1,5 +1,6 @@
 <?php
 include '../php/set_language.php';
+$page = "sudoku-classic";
 ?>
 <!DOCTYPE html>
 <!--
@@ -11,15 +12,7 @@ include '../php/set_language.php';
 
 <head>
   <title>Miniverse Apps</title>
-  <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
-  <link rel="stylesheet" href="/assets/css/navbar.css" />
-  <noscript>
-    <link rel="stylesheet" href="/assets/css/noscript.css" />
-  </noscript>
+  <?php include '../php/head.meta.php'; ?>
 </head>
 
 <body class="is-preload">
@@ -32,7 +25,7 @@ include '../php/set_language.php';
       <span class="icon solid major"></span>
       <h1>Sudoku Classic</h1>
       <p>
-        <?php echo $translations['sudoku-classic']['header']['description']; ?>
+        <?php echo $translations[$page]['header']['description']; ?>
       </p>
     </div>
   </section>
@@ -42,7 +35,7 @@ include '../php/set_language.php';
     <div class="container">
       <section>
         <p>
-          <?php echo $translations['sudoku-classic']['description']; ?>
+          <?php echo $translations[$page]['description']; ?>
         </p>
         <ul class="actions">
           <li>
@@ -52,8 +45,6 @@ include '../php/set_language.php';
               <?php echo $translations['generic']['download-google-play']; ?>
             </a>
           </li>
-        </ul>
-        <ul class="actions">
           <li>
             <a href="/sudoku-classic/privacy.php" class="button">
               <?php echo $translations['generic']['privacy-policy']; ?>

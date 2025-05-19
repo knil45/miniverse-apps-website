@@ -120,6 +120,34 @@ include 'php/set_language.php';
           </ul>
         </div>
       </div>
+      <br /><br />
+      <h2>
+        <?php echo $translations['index']['my-carreer']['title']; ?>
+      </h2>
+      <br /><br />
+      <div class="row gtr-150">
+        <div class="col-4 col-12-medium">
+          <span id="apps" class="image fit"><img src="/images/aeronautical-engineering.png" alt="" /></span>
+          <h3><?php echo $translations['index']['my-carreer']['bachelor']['title']; ?></h3>
+          <p>
+            <?php echo $translations['index']['my-carreer']['bachelor']['description']; ?>
+          </p>
+        </div>
+        <div class="col-4 col-12-medium">
+          <span id="apps" class="image fit"><img src="/images/banc-sabadell.png" alt="" /></span>
+          <h3><?php echo $translations['index']['my-carreer']['banc-sabadell']['title']; ?></h3>
+          <p>
+            <?php echo $translations['index']['my-carreer']['banc-sabadell']['description']; ?>
+          </p>
+        </div>
+        <div class="col-4 col-12-medium">
+          <span id="apps" class="image fit"><img src="/images/europcar.png" alt="" /></span>
+          <h3><?php echo $translations['index']['my-carreer']['europcar']['title']; ?></h3>
+          <p>
+            <?php echo $translations['index']['my-carreer']['europcar']['description']; ?>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 

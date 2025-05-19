@@ -25,7 +25,7 @@ return [
             ]
         ],
         'my-projects' => [
-            'title' => 'Mis proyectos',
+            'title' => 'Mis proyectos personales',
             'description' => [
                 0 => 'Descubre mis aplicaciones y videojuegos, cada uno con su propia historia y propósito.',
                 1 => 'Desde juegos que desafían tu mente hasta herramientas que facilitan tu día a día.',
@@ -38,6 +38,21 @@ return [
             ],
             'alabanza-facil' => [
                 'description' => 'TODO',
+            ]
+        ],
+        'my-carreer' => [
+            'title' => 'Mi carrera profesional',
+            'bachelor' => [
+                'title' => 'Graduado en Ingenería Aeronáutica',
+                'description' => 'todo'
+            ],
+            'banc-sabadell' => [
+                'title' => 'QA engineer en Banc Sabadell',
+                'description' => 'todo'
+            ],
+            'europcar' => [
+                'title' => 'QA engineer en Europcar',
+                'description' => 'todo'
             ]
         ],
         'my-values' => [

@@ -24,7 +24,7 @@ $page = "alabanza-facil";
     <div class="inner">
       <span class="icon solid major"></span>
       <p>
-        <img id="header-icon" src="/images/alabanza-facil.png" alt="">
+        <img id="header-icon" src="/images/alabanza-facil.ico" alt="">
       </p>
       <h1>Alabanza Fácil</h1>
       <p>

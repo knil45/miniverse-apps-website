@@ -97,7 +97,7 @@ include 'php/set_language.php';
           <span id="apps" class="image fit"><img src="/images/sudoku-image.png" alt="" /></span>
           <h3>Sudoku Classic</h3>
           <p>
-            <?php echo $translations['index']['my-projects']['sudoku-classic']['description']; ?>
+            <?php echo $translations['sudoku-classic']['header']['description']; ?>
           </p>
           <div class="spacer"></div>
           <ul class="actions special">
@@ -107,10 +107,10 @@ include 'php/set_language.php';
           </ul>
         </div>
         <div class="col-4 col-12-medium">
-          <span id="apps" class="image fit"><img src="/images/alabanza-facil.png" alt="" /></span>
+          <span id="apps" class="image fit"><img src="/images/alabanza-facil.ico" alt="" /></span>
           <h3>Alabanza Fácil</h3>
           <p>
-            <?php echo $translations['index']['my-projects']['alabanza-facil']['description']; ?>
+            <?php echo $translations['alabanza-facil']['header']['description']; ?>
           </p>
           <div class="spacer"></div>
           <ul class="actions special">

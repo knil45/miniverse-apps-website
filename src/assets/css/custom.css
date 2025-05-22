@@ -1,3 +1,9 @@
 #header #header-icon {
   height: 100px;
 }
+
+.technology-icon {
+  height: 44px;
+  margin: 8px;
+  filter: grayscale(1);
+}

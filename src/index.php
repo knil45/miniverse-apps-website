@@ -107,6 +107,19 @@ include 'php/set_language.php';
           </ul>
         </div>
         <div class="col-4 col-12-medium">
+          <span id="apps" class="image fit"><img src="/images/e-commerce-tools.png" alt="" /></span>
+          <h3>e-commerce tools</h3>
+          <p>
+            <?php echo $translations['e-commerce-tools']['header']['description']; ?>
+          </p>
+          <div class="spacer"></div>
+          <ul class="actions special">
+            <a href="/e-commerce-tools" class="button">
+              <?php echo $translations['generic']['discover-more']; ?>
+            </a>
+          </ul>
+        </div>
+        <div class="col-4 col-12-medium">
           <span id="apps" class="image fit"><img src="/images/alabanza-facil.ico" alt="" /></span>
           <h3>Alabanza Fácil</h3>
           <p>
@@ -127,21 +140,21 @@ include 'php/set_language.php';
       <br /><br />
       <div class="row gtr-150">
         <div class="col-4 col-12-medium">
-          <span id="apps" class="image fit"><img src="/images/aeronautical-engineering.png" alt="" /></span>
+          <span id="apps" class="image fit grayscale"><img src="/images/aeronautical-engineering.png" alt="" /></span>
           <h3><?php echo $translations['index']['my-carreer']['bachelor']['title']; ?></h3>
           <p>
             <?php echo $translations['index']['my-carreer']['bachelor']['description']; ?>
           </p>
         </div>
         <div class="col-4 col-12-medium">
-          <span id="apps" class="image fit"><img src="/images/banc-sabadell.png" alt="" /></span>
+          <span id="apps" class="image fit grayscale"><img src="/images/banc-sabadell.png" alt="" /></span>
           <h3><?php echo $translations['index']['my-carreer']['banc-sabadell']['title']; ?></h3>
           <p>
             <?php echo $translations['index']['my-carreer']['banc-sabadell']['description']; ?>
           </p>
         </div>
         <div class="col-4 col-12-medium">
-          <span id="apps" class="image fit"><img src="/images/europcar.png" alt="" /></span>
+          <span id="apps" class="image fit grayscale"><img src="/images/europcar.png" alt="" /></span>
           <h3><?php echo $translations['index']['my-carreer']['europcar']['title']; ?></h3>
           <p>
             <?php echo $translations['index']['my-carreer']['europcar']['description']; ?>

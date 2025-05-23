@@ -2,8 +2,13 @@
   height: 100px;
 }
 
-.technology-icon {
+.icons li span svg,
+.icons li span img {
   height: 44px;
   margin: 8px;
+  filter: grayscale(1);
+}
+
+.grayscale {
   filter: grayscale(1);
 }

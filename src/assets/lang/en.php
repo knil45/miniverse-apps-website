@@ -36,6 +36,24 @@ return [
             'sudoku-classic' => [
                 'description' => 'A logic classic reinvented by Miniverse Apps',
             ],
+            'alabanza-facil' => [
+                'description' => 'Simple and intuitive program for projecting song lyrics during Christian worship services and gatherings.',
+            ],
+        ],
+        'my-carreer' => [
+            'title' => 'My Professional Career',
+            'bachelor' => [
+                'title' => 'Bachelor’s Degree in Aeronautical Engineering',
+                'description' => ''
+            ],
+            'banc-sabadell' => [
+                'title' => 'QA Engineer at Banc Sabadell',
+                'description' => ''
+            ],
+            'europcar' => [
+                'title' => 'QA Engineer at Europcar',
+                'description' => ''
+            ]
         ],
         'my-values' => [
             'title' => 'My Values',
@@ -51,5 +69,17 @@ return [
             'description' => 'A logic classic reinvented by Miniverse Apps',
         ],
         'description' => 'Sudoku Classic is a refined experience of the game you know and love. With a clean interface, varied levels, difficulty modes, and no fuss, it’s perfect for both beginners and experts.',
+    ],
+    'e-commerce-tools' => [
+        'header' => [
+            'description' => 'Tools to optimize my Shopify and Amazon online store',
+        ],
+        'description' => '<b>e-commerce tools</b> is a set of tools designed to help me manage and organize my online store on Shopify and Amazon, especially in inventory management, order processing, billing, and accounting, which are essential for any online business.',
+    ],
+    'alabanza-facil' => [
+        'header' => [
+            'description' => 'Simple and intuitive program for projecting song lyrics during Christian worship services and gatherings.',
+        ],
+        'description' => '<b>Alabanza Fácil</b> is a program designed to make it easy to project song lyrics during Christian services and gatherings. Similar to EasyWorship, it allows you to easily manage and display hymns, worship songs, and other visual resources during worship times. Its intuitive interface and practical features make it an ideal tool for multimedia teams in churches.',
     ],
 ];

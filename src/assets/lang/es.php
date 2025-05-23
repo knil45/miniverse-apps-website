@@ -37,22 +37,22 @@ return [
                 'description' => 'Un clásico de lógica reinventado por Miniverse Apps',
             ],
             'alabanza-facil' => [
-                'description' => 'TODO',
+                'description' => 'Programa sencillo e intuitivo para proyectar letras de canciones en cultos y reuniones cristianas.',
             ]
         ],
         'my-carreer' => [
             'title' => 'Mi carrera profesional',
             'bachelor' => [
                 'title' => 'Graduado en Ingenería Aeronáutica',
-                'description' => 'todo'
+                'description' => ''
             ],
             'banc-sabadell' => [
                 'title' => 'QA engineer en Banc Sabadell',
-                'description' => 'todo'
+                'description' => ''
             ],
             'europcar' => [
                 'title' => 'QA engineer en Europcar',
-                'description' => 'todo'
+                'description' => ''
             ]
         ],
         'my-values' => [
@@ -68,12 +68,18 @@ return [
         'header' => [
             'description' => 'Un clásico de lógica reinventado por Miniverse Apps',
         ],
-        'description' => 'Sudoku Classic es una experiencia pulida del juego que conoces y amas. Con interfaz limpia, niveles variados, modos de dificultad y sin complicaciones, es perfecto tanto para principiantes como expertos.',
+        'description' => '<b>Sudoku Classic</b> es una experiencia pulida del juego que conoces y amas. Con interfaz limpia, niveles variados, modos de dificultad y sin complicaciones, es perfecto tanto para principiantes como expertos.',
+    ],
+    'e-commerce-tools' => [
+        'header' => [
+            'description' => 'Herramientas para optimizar mi tienda online de Shopify y Amazon',
+        ],
+        'description' => '<b>e-commerce tools</b> es un conjunto de herramientas diseñadas para ayudarme a la gestión y organización de mi tienda online de Shopify y Amazon, especialmente en la gestión de inventario, de pedidos, de facturación y de contabilidad, que son esenciales para cualquier negocio en línea.',
     ],
     'alabanza-facil' => [
         'header' => [
-            'description' => 'TODO',
+            'description' => 'Programa sencillo e intuitivo para proyectar letras de canciones en cultos y reuniones cristianas.',
         ],
-        'description' => 'TODO',
+        'description' => '<b>Alabanza Fácil</b> es un programa diseñado para facilitar la proyección de letras de canciones en reuniones y cultos cristianos. Similar a EasyWorship, permite gestionar y mostrar de forma sencilla himnos, alabanzas y otros recursos visuales durante los tiempos de adoración. Su interfaz intuitiva y funciones prácticas lo convierten en una herramienta ideal para equipos de multimedia en iglesias.',
     ],
 ];

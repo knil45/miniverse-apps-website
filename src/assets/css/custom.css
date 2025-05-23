@@ -12,3 +12,7 @@
 .grayscale {
   filter: grayscale(1);
 }
+
+.my-carreer-icon {
+  max-width: 220px !important ;
+}
